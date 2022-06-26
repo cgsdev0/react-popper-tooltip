@@ -202,7 +202,7 @@ export function usePopperTooltip(
 
   // Trigger: hover on tooltip, keep it open if hovered
   React.useEffect(() => {
-    if (tooltipRef == null || !getLatest().finalConfig.interactive) return;
+    if (tooltipRef == null || !isTriggeredBy('hover') || !getLatest().finalConfig.interactive) return;
 
     tooltipRef.addEventListener('mouseenter', showTooltip);
     tooltipRef.addEventListener('mouseleave', hideTooltip);
