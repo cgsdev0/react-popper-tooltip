@@ -1,12 +1,12 @@
 {
-  "name": "react-popper-tooltip",
-  "version": "4.4.1",
+  "name": "@cgsdev0/react-popper-tooltip",
+  "version": "4.4.2",
   "description": "React tooltip library built around react-popper",
   "author": "Mohsin Ul Haq <mohsinulhaq01@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mohsinulhaq/react-popper-tooltip"
+    "url": "https://github.com/cgsdev0/react-popper-tooltip"
   },
   "keywords": [
     "react",
