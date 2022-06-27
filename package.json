@@ -27,15 +27,6 @@
     "dist/styles.css"
   ],
   "scripts": {
-    "build": "rm -rf dist && rollup -c && cp src/styles.css dist && yarn tsc && rm -rf compiled",
-    "prepare": "husky install && yarn typecheck && yarn build && yarn test && yarn lint-staged",
-    "prettier": "prettier --write src/**/*.{ts,tsx}",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint \"{src,tests,examples}**/*.{ts,tsx}\"",
-    "start": "rollup -c -w",
-    "test": "jest --env=jsdom tests",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
   },
   "jest": {
     "modulePathIgnorePatterns": [
